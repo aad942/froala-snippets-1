@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Nunito", sans-serif;
+}
+
+.sidebar {
+    background-color: #01a4f9;
+    min-height: 100vh;
+    color: white;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.editor-border {
+    border: 1px solid #ccc;
+    padding: 0;
+    min-height: 400px;
+}
+
+.content-area {
+    background: #fff;
+    min-height: 100vh;
+}
+
+#btnAddPage {
+    background-color: #ffffff;
+    color: #01a4f9;
+}
+
+#btnAddPage:hover{
+    background-color: #01a4f9;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
